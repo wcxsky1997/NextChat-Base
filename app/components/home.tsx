@@ -211,7 +211,7 @@ function Screen() {
   return (
     <div
       className={clsx(styles.container, {
-        [styles["tight-container"]]: shouldTightBorder,
+        [styles["tight-container"]]: true,
         [styles["rtl-screen"]]: getLang() === "ar",
       })}
     >
